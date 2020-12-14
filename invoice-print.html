@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AdminLTE 3 | Invoice Print</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+</head>
+<body>
+<div class="wrapper">
+  <!-- Main content -->
+  <section class="invoice">
+    <!-- title row -->
+    <div class="row">
+      <div class="col-12">
+        <center>
+          <h2 class="page-header">
+            Invoice
+        </h2>
+        </center>
+        
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- info row -->
+    <div class="row invoice-info">
+      <div class="col-sm-4 invoice-col">
+        Kepada YTH.
+        <address>
+          <strong>KING KONG TOYS</strong><br>
+          Jl. Jend Sudirman No 107<br>
+          Bandung<br>
+          Phone: (021) 123-4567<br>
+          Email: KingKongToys@example.com
+        </address>
+      </div>
+      <!-- /.col -->
+      <div class="col-sm-4 invoice-col">
+        
+      </div>
+      <!-- /.col -->
+      <div class="col-sm-4 invoice-col">
+        <b>No Faktur</b> 014/BKC/VII/20<br>
+        <br>
+        <b>Tanggal</b> 08/07/2020<br>
+        <b>Sales :</b> Athiam<br>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+    <br><br>
+
+    <!-- Table row -->
+    <div class="row">
+      
+      <div class="col-12 table-responsive">
+        <i> Payment Due : 45 Days</i>
+        <table class="table table-bordered table-striped">
+          <thead>
+          <tr class="info">
+            <th style="width: 1%">No</th>
+            <th style="width: 1%">Ctn</th>
+            <th style="width: 1%">Isi</th>
+            <th colspan="2" style="text-align: center; width: 3%">Qty</th>
+            <th>Kode Barang</th>
+            <th>Nama Barang</th>
+            <th>Harga (Rp)</th>
+            <th style="width:1%">%</th>
+            <th>Total (Rp)</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>8</td>
+            <td>Lsn</td>
+            <td>BTG501</td>
+            <td>Truck</td>
+            <td>420.000</td>
+            <td>0</td>
+            <td>3.360.000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>8</td>
+            <td>Lsn</td>
+            <td>BTG501</td>
+            <td>Truck</td>
+            <td>420.000</td>
+            <td>0</td>
+            <td>3.360.000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>8</td>
+            <td>Lsn</td>
+            <td>BTG501</td>
+            <td>Truck</td>
+            <td>420.000</td>
+            <td>0</td>
+            <td>3.360.000</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>4</td>
+            <td>8</td>
+            <td>Lsn</td>
+            <td>BTG501</td>
+            <td>Truck</td>
+            <td>420.000</td>
+            <td>0</td>
+            <td>3.360.000</td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+
+    <div class="row">
+      <!-- accepted payments column -->
+      <br><br>
+      <div class="col-6">
+        <center>
+          Hormat Kami,
+          <br><br><br><br>
+          (BKC)
+        </center>
+        
+      </div>
+
+
+      <!-- /.col -->
+
+      <div class="col-6">
+
+        <div class="table-responsive">
+          <table class="table">
+            <tr>
+              <th style="width:50%">Subtotal:</th>
+              <td>12.240.000</td>
+            </tr>
+            <tr>
+              <th>Discount</th>
+              <td></td>
+            </tr>
+            <tr>
+              <th>Total:</th>
+              <td>12.240.000</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <!-- /.col -->
+    </div>
+    <!-- /.row -->
+  </section>
+  <!-- /.content -->
+</div>
+<!-- ./wrapper -->
+
+<script>
+  window.addEventListener("load", window.print());
+</script>
+</body>
+</html>
